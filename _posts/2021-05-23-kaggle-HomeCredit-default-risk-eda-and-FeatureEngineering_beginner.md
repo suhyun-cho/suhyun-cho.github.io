@@ -1,6 +1,6 @@
 ---
 layout: single
-title : "Kaggle - Home credit default risk - EDA and FeatureEngineering (for beginner)"
+title : "Kaggle필사 - Home credit default risk - EDA and FeatureEngineering (for beginner)"
 author_profile: true
 read_time: false
 comments: true

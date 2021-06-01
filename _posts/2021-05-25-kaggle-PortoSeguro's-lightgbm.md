@@ -1,6 +1,6 @@
 ---
 layout: single
-title : "Kaggle - PortoSeguro's safe driver prediction_v2 (Simple-classification-challenge-with-lightgbm)"
+title : "Kaggle필사 - PortoSeguro's safe driver prediction_v2 (Simple-classification-challenge-with-lightgbm)"
 author_profile: true
 read_time: false
 comments: true

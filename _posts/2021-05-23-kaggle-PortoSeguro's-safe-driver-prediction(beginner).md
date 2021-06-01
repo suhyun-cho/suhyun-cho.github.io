@@ -1,6 +1,6 @@
 ---
 layout: single
-title : "Kaggle - PortoSeguro's safe driver prediction_v1 (for beginner)"
+title : "Kaggle필사 - PortoSeguro's safe driver prediction_v1 (for beginner)"
 author_profile: true
 read_time: false
 comments: true

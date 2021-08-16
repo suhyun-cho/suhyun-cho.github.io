@@ -20,7 +20,7 @@ select current_datetime() cur_dt
 ```
 
 #<img src="/Users/suhyun/Library/Application Support/typora-user-images/image-20210816185242440.png" alt="image-20210816185242440" style="zoom:50%;" />
-![png](/images/2021-08-16-BigQuery-function_files/img_1.png)
+![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_1.png)
 
 
 
@@ -34,7 +34,7 @@ select timestamp(current_datetime(), 'Asia/Seoul') cur_dt_to_ts
 ```
 
 #<img src="/Users/suhyun/Library/Application Support/typora-user-images/image-20210816185324417.png" alt="image-20210816185324417" style="zoom:50%;" />
-![png](/images/2021-08-16-BigQuery-function_files/img_2.png)
+![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_2.png)
 
 
 - current_datetime에 timestamp() 를 씌우면 우리나라 날짜를 → UTC로 변경 했을때의 결과가 나옴
@@ -66,7 +66,7 @@ select dt as dt_original
 ```
 
 #<img src="/Users/suhyun/Library/Application Support/typora-user-images/image-20210816185613522.png" alt="image-20210816185613522" style="zoom:50%;" />
-![png](/images/2021-08-16-BigQuery-function_files/img_3.png)
+![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_3.png)
 
 
 
@@ -92,7 +92,7 @@ from sample_data
 ```
 
 #<img src="/Users/suhyun/Library/Application Support/typora-user-images/image-20210816185838313.png" alt="image-20210816185838313" style="zoom:25%;" />
-![png](/images/2021-08-16-BigQuery-function_files/img_4.png)
+![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_4.png)
 
 4-2) rows between unbounded preceding and `unbounded following` 는 partition by 로 나눈 그룹의 전체 누적합을 계산함.
 
@@ -103,7 +103,7 @@ from sample_data
 ```
 
 #<img src="/Users/suhyun/Library/Application Support/typora-user-images/image-20210816185901299.png" alt="image-20210816185901299" style="zoom:25%;" />
-![png](/images/2021-08-16-BigQuery-function_files/img_5.png)
+![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_5.png)
 
 4-3) rows between ~ 이런거 추가 안하고 그냥 sum( ) over (partition by        order by       ) 만 쓰면, DEFAULT인
 
@@ -114,7 +114,7 @@ RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 위 명령어로 처리되는데, 이것은 Order by 로 정렬한 결과에 동일한 값이 있을 때 합쳐서 처리한다.
 
 #<img src="/Users/suhyun/Library/Application Support/typora-user-images/image-20210816185931817.png" alt="image-20210816185931817" style="zoom:25%;" />
-![png](/images/2021-08-16-BigQuery-function_files/img_6.png)
+![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_6.png)
 
 
 
@@ -136,7 +136,7 @@ FROM UNNEST([1, 1, 1, 4, 5, 6, 7, 8, 9, 10]) AS x;
 ```
 
 #<img src="/Users/suhyun/Library/Application Support/typora-user-images/image-20210816190007324.png" alt="image-20210816190007324" style="zoom:25%;" />
-![png](/images/2021-08-16-BigQuery-function_files/img_7.png)
+![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_7.png)
 
 
 PERCENTILE_CONT( ) 는 반드시 over()를 동반해야됨. 따라서, 각 row 별로 percentile값이 출력됨.
@@ -151,6 +151,6 @@ FROM UNNEST([1, 1, 1, 4, 5, 6, 7, 8, 9, 10]) AS x;
 ```
 
 #<img src="/Users/suhyun/Library/Application Support/typora-user-images/image-20210816190025653.png" alt="image-20210816190025653" style="zoom:25%;" />
-![png](/images/2021-08-16-BigQuery-function_files/img_8.png)
+![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_8.png)
 
 

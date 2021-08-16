@@ -8,9 +8,6 @@ categories:
 - BigQuery
 ---
 
-# 헷갈리는 BigQuery 함수 정리
-
-
 ## (1) TIMESTAMP / DATETIME
 
 아래 쿼리를 실행하면 뒤에 UTC가 붙고, 안붙고의 차이 말고는 동일한 결과로 보인다.

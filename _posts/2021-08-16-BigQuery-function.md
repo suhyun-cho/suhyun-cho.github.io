@@ -8,7 +8,9 @@ categories:
 - BigQuery
 ---
 
-## (1) TIMESTAMP / DATETIME
+<br>
+
+# (1) TIMESTAMP / DATETIME
 
 아래 쿼리를 실행하면 뒤에 UTC가 붙고, 안붙고의 차이 말고는 동일한 결과로 보인다.
 
@@ -45,9 +47,11 @@ select timestamp(current_datetime(), 'Asia/Seoul') cur_dt_to_ts
 
 
 
+<br>
 
+<br>
 
-## (2) DATETIME_TRUNC
+# (2) DATETIME_TRUNC
 
 2021년 7월 28일을 기준으로 잡았을때,
 
@@ -68,14 +72,15 @@ select dt as dt_original
 
 ![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_3.png)
 
+<br>
 
+<br>
 
-
-## (3) Window frame
+# (3) Window frame
 
 ### ROWS BETWEEN
 
-4-1) rows between unbounded preceding and `current row` 는 partition by 로 나눈 그룹별로 위에서부터 순차적으로 누적합계를 계산함.
+3-1) rows between unbounded preceding and `current row` 는 partition by 로 나눈 그룹별로 위에서부터 순차적으로 누적합계를 계산함.
 
 ```sql
 with sample_data as (
@@ -94,7 +99,9 @@ from sample_data
 
 ![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_4.png)
 
-4-2) rows between unbounded preceding and `unbounded following` 는 partition by 로 나눈 그룹의 전체 누적합을 계산함.
+<br>
+
+3-2) rows between unbounded preceding and `unbounded following` 는 partition by 로 나눈 그룹의 전체 누적합을 계산함.
 
 ```sql
 select *
@@ -105,7 +112,9 @@ from sample_data
 
 ![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_5.png)
 
-4-3) rows between ~ 이런거 추가 안하고 그냥 sum( ) over (partition by        order by       ) 만 쓰면, DEFAULT인
+<br>
+
+3-3) rows between ~ 이런거 추가 안하고 그냥 sum( ) over (partition by        order by       ) 만 쓰면, DEFAULT인
 
 ```sql
 RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
@@ -116,10 +125,11 @@ RANGE BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
 
 ![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_6.png)
 
+<br>
 
+<br>
 
-
-## (4) APPROX_QUANTILES , PERCENTILE_CONT 차이
+# (4) APPROX_QUANTILES , PERCENTILE_CONT 차이
 
 - 정의는, **APPROX_QUANTILES( )** 는 근사치 경계를 반환하고, **PERCENTILE_CONT( )** 는 지정된 백분위수 값을 선형 보간으로 계산한다고 되어있음.
 - 그래서 두 함수 결과값이 살짝 다름.
@@ -138,6 +148,8 @@ FROM UNNEST([1, 1, 1, 4, 5, 6, 7, 8, 9, 10]) AS x;
 
 ![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_7.png)
 
+<br>
+
 
 PERCENTILE_CONT( ) 는 반드시 over()를 동반해야됨. 따라서, 각 row 별로 percentile값이 출력됨.
 
@@ -153,3 +165,4 @@ FROM UNNEST([1, 1, 1, 4, 5, 6, 7, 8, 9, 10]) AS x;
 
 ![png](/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_8.png)
 
+<br>

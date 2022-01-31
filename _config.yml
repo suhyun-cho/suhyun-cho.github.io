@@ -12,7 +12,7 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "default" #"neon" "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "ko-KR"
@@ -102,7 +102,7 @@ analytics:
 author:
   name             : "SuhyunCho"
   avatar           : "/assets/images/githubblog_logo.JPG" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "2년차 데이터분석가의 기록물을 남깁니다. 그 외 제 일상이 담긴 기록도 함께있습니다."
+  bio              : "데이터분석 관련 기록을 남깁니다. 그 외 제 일상이 담긴 기록도 함께있습니다."
 #  location         : "Republic of Korea"
 #  email            : "whtngus4759@gmail.com"
   links:

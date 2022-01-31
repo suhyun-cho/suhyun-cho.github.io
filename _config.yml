@@ -123,6 +123,9 @@ author:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
+    - label : "Linkedin"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/%EC%88%98%ED%98%84-%EC%A1%B0-7ba7151a7/"
 
 # Site Footer
 footer:

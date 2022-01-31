@@ -53,11 +53,8 @@ categories:
 
 ### 3.4 비교 사례 분석
 
-> 📌 
->
-> - 비교를 하는 목적(관점) : 비교를 통해 평가한다.
->
-> - 비교의 기술 : 목적에 따라 `값의 크기`, `추이,` `편차`,`비율` 등 4가지 평가 기준을 이용해 데이터의 트징을 포착한다.
+> 📌 1. 비교를 하는 목적(관점) : 비교를 통해 평가한다.
+> 2.비교의 기술 : 목적에 따라 `값의 크기`, `추이,` `편차`,`비율` 등 4가지 평가 기준을 이용해 데이터의 트징을 포착한다.
 
 
 
@@ -71,8 +68,7 @@ categories:
     - 상품A 추이를 보면, 1월에는 작은 수치였으나 12월로 갈수록 커지기 때문에 전체 편차는 크게 나타난다.
   - 따라서, ‘편차’ 를 볼 때는 표준편차에만 의존하지 말고 그래프를 통해 추이도 함께 관찰하는 것이 좋다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/fddc3fad-7716-4454-ac15-fd30194b1ef8/Untitled.png)
-
+![png](/images/2022-01-31-BookReview-DataLiteracy_files/2022-01-31-BookReview-DataLiteracy_1.png)
 
 
 ### 4. 문제와 원인, 그 관련성 유무를 확인하는 방법 (p.155)
@@ -89,7 +85,7 @@ categories:
   3. 벗어나 있는 값에 주목한다
   4. 변화점을 찾는다
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/62d7c9e3-8aa3-47bf-b730-d0029ea98d4d/Untitled.png)
+![png](/images/2022-01-31-BookReview-DataLiteracy_files/2022-01-31-BookReview-DataLiteracy_2.png)
 
 ✅ **내 의견**⇒ 종종 산포도를 그려보고 상관관계가 없으면 그걸로 끝이라고 생각했었는데, 거기서 그칠것이 아니라 두 변수간에 어떤 관계가 있는지를 좀더 면밀하게 살펴볼 필요가 있다는 것을 느꼈다. 책에서의 사례처럼 산포도를 그렸는데 총 4 구간으로 나뉘어진다고 했을때, A 구간에 있는 값들을 B 구간으로 이동시키려면 어떤 action을 해야할지, B구간의 공통점을 찾아서 이로부터 이끌어낸 성공 요인을 A구간에 적용시켜볼 수 있지는 않을지 고민봐야한다.
 

@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/images/2021-08-16-BigQuery-function_files/2021-08-16-BigQuery-function_1.png" afterDir="false" />
-    </list>
+    <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +38,7 @@
           <entry key="JPG" value="1" />
           <entry key="html" value="9" />
           <entry key="ipynb" value="1" />
-          <entry key="md" value="14" />
+          <entry key="md" value="15" />
           <entry key="png" value="1" />
           <entry key="scss" value="5" />
           <entry key="yml" value="4" />
@@ -51,7 +49,7 @@
           <entry key="HTML" value="9" />
           <entry key="IPNB" value="1" />
           <entry key="Image" value="2" />
-          <entry key="Markdown" value="14" />
+          <entry key="Markdown" value="15" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="YAML" value="4" />
         </counts>
@@ -59,7 +57,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="25" />
-          <entry key="md" value="222" />
+          <entry key="md" value="303" />
           <entry key="scss" value="56" />
           <entry key="yml" value="11" />
         </counts>
@@ -67,7 +65,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="25" />
-          <entry key="Markdown" value="222" />
+          <entry key="Markdown" value="303" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="YAML" value="11" />
         </counts>
@@ -133,12 +131,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2021-08-16-BigQuery-function.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="311">
-                <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <first_editor relative-caret-position="255">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2022-01-31-Book-DataLiteracy.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="165">
+                <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -224,6 +234,7 @@
         <option value="$PROJECT_DIR$/_sass/minimal-mistakes/skins/_neon.scss" />
         <option value="$PROJECT_DIR$/_posts/2021-08-16-BigQuery-function.md" />
         <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_posts/2022-01-31-Book-DataLiteracy.md" />
       </list>
     </option>
   </component>
@@ -348,7 +359,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/_pages/year-archive.md" />
     <entry file="file://$PROJECT_DIR$/_layouts/archive.html" />
     <entry file="file://$PROJECT_DIR$/_posts/2021-05-22-kaggle Porto Seguro의 운전자 보험청구 예측 (for beginner).md" />
     <entry file="file://$PROJECT_DIR$/_posts/kaggle/2021-05-19-kaggle Home credit default risk.md" />
@@ -584,8 +594,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2021-08-16-BigQuery-function.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="311">
-            <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <first_editor relative-caret-position="255">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2022-01-31-Book-DataLiteracy.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="165">
+            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
           </first_editor>
           <second_editor />
         </state>

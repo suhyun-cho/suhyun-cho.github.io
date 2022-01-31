@@ -7,8 +7,10 @@ comments: true
 categories:
 - Kaggle
 ---
+<br>
 
 # House Prices
+
 ## 1. Comprehensive Data Exploration with Python
 [캐글]: https://www.kaggle.com/c/house-prices-advanced-regression-techniques <br>
 [참고 커널모음] :https://subinium.github.io/kaggle-tutorial/house-prices <br>

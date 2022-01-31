@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="" />
+    <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/_posts/algorithm/2022-01-31-Hash-전화번호목록.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/algorithm/2022-01-31-Hash-전화번호목록.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +60,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="25" />
-          <entry key="md" value="337" />
+          <entry key="md" value="422" />
           <entry key="scss" value="56" />
           <entry key="yml" value="60" />
         </counts>
@@ -66,7 +68,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="25" />
-          <entry key="Markdown" value="337" />
+          <entry key="Markdown" value="422" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="YAML" value="60" />
         </counts>
@@ -142,8 +144,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/algorithm/2022-01-31-Hash-전화번호목록.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="150">
-                <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              <first_editor relative-caret-position="90">
+                <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -621,8 +623,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/algorithm/2022-01-31-Hash-전화번호목록.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <first_editor relative-caret-position="90">
+            <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
           </first_editor>
           <second_editor />
         </state>

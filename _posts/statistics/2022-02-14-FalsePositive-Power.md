@@ -9,6 +9,7 @@ categories:
 ---
 
 <br>
+<br>
 
 
 
@@ -30,7 +31,6 @@ categories:
 
 ------
 
-[p-hacking 강의 링크](https://www.youtube.com/watch?v=HDCOUXE3HMM)
 
 
 
@@ -39,6 +39,7 @@ categories:
 
 
 ## 2-1. P-hacking 이란
+[p-hacking 강의 링크](https://www.youtube.com/watch?v=HDCOUXE3HMM)
 
 > 분석기술을 오용, 남용하는것을 의미하며 거짓양성(false-positive)에 속는 결과를 초래한다. (거짓양성 : 귀무가설이 참인데 기각할 확률 )
 
@@ -54,22 +55,18 @@ categories:
 ## 2-2. 1종오류 (false positive)를 줄이는 방법
 
 1. **Bonferroni**
-
    1. 유의수준을 검정하려는 횟수로 나누어 개별 검정의 유의수준으로 정하는것이다.
       1. ex) 5000번의 T-test를 한다면, 각각의 T-test 유의수준을 0.05/5000=0.00001로 하는것.
    2. 단점은, 너무 보수적이여서 비교의 개수가 커지면 유의수준이 너무 작아져 검정력이 떨어진다.
 
 2. **FDR (False Discovery Rate)**
-
    > FDR = false positive / total positive (total positive = false positive + true positive)
 
    Step1. 유의하다고 판단한 것 중에 틀릴 확률을 고정시키는 조정된 p-value를 정의한다. (위 값을 계산)
-
    Step2. 개별 연구의 p-value를 작은 순서대로 나열한다.
-
    Step3. 개별 p-value가 조정된 기각역(alpha)보다 작은경우까지만 기각한다.
 
-   ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_files_1.png)
+![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_1.png)
   
 
 
@@ -91,24 +88,22 @@ categories:
 
 ------
 
-[Power 강의 링크](https://www.youtube.com/watch?v=Rsc5znwR5FA)
+
 
 ## 3. 검정력(Power)란
+[Power 강의 링크](https://www.youtube.com/watch?v=Rsc5znwR5FA)
 
 > Power(검정력) 은 귀무가설을 올바르게 기각할 확률이다. 다른말로 하면, **검정력이란 '올바르게 작은 값의 p-value(0.05) 를 얻을 확률'** 이라고 할 수 있다.
 
+<br>
 
 ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_2.png)
-
-
 - 위 그림처럼 겹치는 부분이 매우 적은 두 분포가 있을 때는 아주 좋은 검정력을 가진다. 왜냐하면 귀무가설을 올바르게 기각할 확률이 높기 때문이다.
 
 <br>
 
 
 ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_3.png)
-
-
 - 그러나, 위 그림처럼 두 분포가 많이 겹쳐있고, 작은 표본크기를 갖는다면, 낮은 검정력을 가질 것이다.
   - 쉽게말하면 ⇒ 두 분포가 명확히 떨어져있지 않으니까, 서로 다른 분포로부터 나온 값이라고 말하기가 더 어려워짐.
 - 검정력을 높이기 위해서는, 표본의 크기를 키우면됨.
@@ -120,9 +115,10 @@ categories:
 
 ------
 
-[Power Analysis 강의 링크](https://www.youtube.com/watch?v=VX_M3tIyiYk)
 
 ## 4. 검정력 분석이란
+[Power Analysis 강의 링크](https://www.youtube.com/watch?v=VX_M3tIyiYk)
+
 
 ```
 좋은 검정력을 갖기 위해서 얼마나 많은 측정을 해야하는지. 
@@ -145,10 +141,10 @@ categories:
 
 
 ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_4.png)
-
-
 - 모집단의 평균을 추정하기 위해 하나 이상의 측정값을 사용했을 때,
 - 극한의 측정값들이 추정된 평균의 위치에 미치는 영향이 적기 때문이다.
+
+<br>
 
 > **즉, 분포가 겹치더라도 표본의 크기가 크다면 높은 검정력을 가질 수 있다.**
 

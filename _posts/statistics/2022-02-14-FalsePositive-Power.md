@@ -62,9 +62,9 @@ categories:
 2. **FDR (False Discovery Rate)**
    > FDR = false positive / total positive (total positive = false positive + true positive)
 
-   Step1. 유의하다고 판단한 것 중에 틀릴 확률을 고정시키는 조정된 p-value를 정의한다. (위 값을 계산)
-   Step2. 개별 연구의 p-value를 작은 순서대로 나열한다.
-   Step3. 개별 p-value가 조정된 기각역(alpha)보다 작은경우까지만 기각한다.
+- Step1. 유의하다고 판단한 것 중에 틀릴 확률을 고정시키는 조정된 p-value를 정의한다. (위 값을 계산)
+- Step2. 개별 연구의 p-value를 작은 순서대로 나열한다.
+- Step3. 개별 p-value가 조정된 기각역(alpha)보다 작은경우까지만 기각한다.
 
 ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_1.png)
   

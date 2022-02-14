@@ -1,6 +1,18 @@
+---
+layout: single
+title : "[통계] 다중검정, 1종오류를 줄이는 방법 , 검정력(power)이란"
+author_profile: true
+read_time: false
+comments: true
+categories:
+- Statistics
+---
+
+<br>
 
 
-(아래 내용은 StatQuest 강의를 바탕으로 공부하면서 정리한 내용입니다. 공부하면서 추가적으로 검색을통해 알게된 내용들도 추가했습니다.)
+
+(아래 내용은 유튜브 StatQuest 강의를 바탕으로 공부하면서 정리한 내용입니다. 공부하면서 추가적으로 검색을통해 알게된 내용들도 추가했습니다.)
 
 
 
@@ -57,9 +69,8 @@
 
    Step3. 개별 p-value가 조정된 기각역(alpha)보다 작은경우까지만 기각한다.
 
-   ```
    ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_files_1.png)
-   ```
+  
 
 
 
@@ -67,12 +78,10 @@
 
 ### Summary
 
-<aside> 📌
-
 - 여러 약들이 어떤 바이러스로부터 회복하는데 도움을 주는가? 처럼 검정하길 원하는 것들이 많이 있다면(다중검정) 달라보이는 것들에 대해서만 p-value를 계산하지말고
 - 그대신, 각 테스트마다 p-value를 계산하고 모든 p-value를 False Discovery Rate와 같은 방법으로 조정한다.
 - 그리고 검정 중 0.05보단 크지만 근접한 값을 얻을경우, 이미 있는 데이터에 추가적으로 관찰값을 추가하지말고
-- 검정력 분석이 알맞은 표본의 크기를 결정할 수 있도록 데이터를 사용한다. </aside>
+- 검정력 분석이 알맞은 표본의 크기를 결정할 수 있도록 데이터를 사용한다. 
 
 
 
@@ -88,17 +97,17 @@
 
 > Power(검정력) 은 귀무가설을 올바르게 기각할 확률이다. 다른말로 하면, **검정력이란 '올바르게 작은 값의 p-value(0.05) 를 얻을 확률'** 이라고 할 수 있다.
 
-```
+
 ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_2.png)
-```
+
 
 - 위 그림처럼 겹치는 부분이 매우 적은 두 분포가 있을 때는 아주 좋은 검정력을 가진다. 왜냐하면 귀무가설을 올바르게 기각할 확률이 높기 때문이다.
 
 <br>
 
-```
+
 ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_3.png)
-```
+
 
 - 그러나, 위 그림처럼 두 분포가 많이 겹쳐있고, 작은 표본크기를 갖는다면, 낮은 검정력을 가질 것이다.
   - 쉽게말하면 ⇒ 두 분포가 명확히 떨어져있지 않으니까, 서로 다른 분포로부터 나온 값이라고 말하기가 더 어려워짐.
@@ -134,9 +143,9 @@
 
 <br>
 
-```
+
 ![png](/images/2022-02-14-statistics-FalsePositive-Power_files/2022-02-14-statistics-FalsePositive-Power_4.png)
-```
+
 
 - 모집단의 평균을 추정하기 위해 하나 이상의 측정값을 사용했을 때,
 - 극한의 측정값들이 추정된 평균의 위치에 미치는 영향이 적기 때문이다.

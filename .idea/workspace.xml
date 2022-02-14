@@ -61,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="25" />
-          <entry key="md" value="515" />
+          <entry key="md" value="518" />
           <entry key="scss" value="56" />
           <entry key="yml" value="60" />
         </counts>
@@ -69,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="25" />
-          <entry key="Markdown" value="515" />
+          <entry key="Markdown" value="518" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="YAML" value="60" />
         </counts>
@@ -169,8 +169,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/statistics/2022-02-14-FalsePositive-Power.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="419">
-                <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+              <first_editor relative-caret-position="274">
+                <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
               </first_editor>
               <second_editor />
             </state>
@@ -645,8 +645,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/statistics/2022-02-14-FalsePositive-Power.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="419">
-            <caret line="66" column="2" selection-start-line="66" selection-start-column="2" selection-end-line="66" selection-end-column="2" />
+          <first_editor relative-caret-position="274">
+            <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
           </first_editor>
           <second_editor />
         </state>

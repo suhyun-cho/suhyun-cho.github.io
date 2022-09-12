@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/.masthead-search.gif.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/docs/assets/images/.mm-priority-plus-masthead.gif.icloud" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/assets/images/.mm-priority-plus-masthead.gif.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="25" />
-          <entry key="md" value="650" />
+          <entry key="md" value="710" />
           <entry key="scss" value="56" />
           <entry key="yml" value="60" />
         </counts>
@@ -73,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="25" />
-          <entry key="Markdown" value="650" />
+          <entry key="Markdown" value="710" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="YAML" value="60" />
         </counts>
@@ -176,8 +172,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="405">
-                <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+              <first_editor relative-caret-position="349">
+                <caret line="144" column="4" lean-forward="true" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -363,7 +359,7 @@
     <frame x="-13" y="24" width="1453" height="825" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26860383" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.05315379" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -674,8 +670,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="405">
-            <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
+          <first_editor relative-caret-position="349">
+            <caret line="144" column="4" lean-forward="true" selection-start-line="144" selection-start-column="4" selection-end-line="144" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>

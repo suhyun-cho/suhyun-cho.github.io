@@ -18,6 +18,9 @@ categories:
 
 (아래 내용은 ‘인과추론의 데이터과학' [유튜브 강의](https://www.youtube.com/watch?v=nRMZ7a4Ah8E)를 들으면서 공부 목적으로  정리한 내용입니다. 자세한 내용은 강의를 참고해주세요)
 
+
+<br>
+
 ## 도구변수를 하나의 Treatment Assignment Mechanism으로 해석
 
 ⇒ 연구대상을 아래 4가지 유형(Always takers, Never takers, Compliers, Defiers)으로 구분해볼수있음
@@ -109,6 +112,7 @@ categories:
 
 
 <br>
+<br>
 
 
 
@@ -139,6 +143,8 @@ categories:
     
 
 <br>
+<br>
+
 
 #### Step2. 각각의 비중을 바탕으로 평균 소득 계산
 
@@ -161,15 +167,19 @@ categories:
     | --- | --- | --- |
     | 전쟁 비 참전 (0) | complier / never-taker | never-taker / defier |
     | 전쟁 참전 (1) | always-taker / defier | complier / always-taker |
+    
+<br>
+   
 - COMPLIANCE TYPES : ESTIMATED AVERAGE OUTCOMES
     - lottery에 선발 → 전쟁에 참전하여 나온 평균소득과(complier(1))
     - lottery에 선발되지 않아서 → 전쟁에 참전하지 않아서 나온 평균소득 (complier(0))
         - 이 둘의 차이가 23%정도됨. 이것이 2SLS로 추정할수있었던 결과임.
         
-        | never-taker = 5.4028 | defier(NA) |
+        |  |  |
         | --- | --- |
-        | complier(0) = 5.6948
-        complier(1) = 5.4612 | always-taker = 5.4076 |
+        | never-taker = 5.4028 | defier(NA) |
+        | complier(0) = 5.6948                        
+        |  complier(1) = 5.4612 | always-taker = 5.4076 |
 
 <br>
 
@@ -190,7 +200,7 @@ categories:
 <br>
 
 
-**< LATE 한계점 >**
+####  LATE 한계점
 
 compliers는 특정 도구변수에 순응하는지 마는지 여부임. 그래서 도구변수가 달라지만 또다른 도구변수에 순응하는 complier는 달라질수있음. 
 

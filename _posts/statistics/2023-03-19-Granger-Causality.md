@@ -203,12 +203,13 @@ x가 y에 영향을 미치지 않는다는 귀무가설을 검정하기 위하�
 <br>
 
 *(user :  1차 차분, 2차 차분, 계절차분(7) 결과 )*
-![png](![png](/images/2023-03-19-Granger-Causality_files/Untitled 8.png))
+
+![png](/images/2023-03-19-Granger-Causality_files/Untitled 8.png)
 
 
 *(seller :  1차 차분, 2차 차분, 계절차분(7) 결과 )*
-![png](![png](/images/2023-03-19-Granger-Causality_files/Untitled 9.png))
 
+![png](/images/2023-03-19-Granger-Causality_files/Untitled 9.png)
 
 <br>
 <br>
@@ -222,18 +223,18 @@ x가 y에 영향을 미치지 않는다는 귀무가설을 검정하기 위하�
 
 **(data-set)**
 
-![(seller → user 그레인저 인과관계를 확인할때 데이터셋)](/images/2023-03-19-Granger-Causality_files/Untitled 10.png))
+![(seller → user 그레인저 인과관계를 확인할때 데이터셋)](/images/2023-03-19-Granger-Causality_files/Untitled 10.png)
 
 (seller → user 그레인저 인과관계를 확인할때 데이터셋)
 
 
-![(user→ seller 그레인저 인과관계를 확인할때 데이터셋)](/images/2023-03-19-Granger-Causality_files/Untitled 11.png))
+![(user→ seller 그레인저 인과관계를 확인할때 데이터셋)](/images/2023-03-19-Granger-Causality_files/Untitled 11.png)
 
 (user→ seller 그레인저 인과관계를 확인할때 데이터셋)
 
 <br>
 
-**(code)**
+#### ( code )
 
 ```python
 # 1) maxlag 에 따른 결과 나열 방식
@@ -309,13 +310,13 @@ def grangers_causation_matrix(data, variables, test='ssr_chi2test', verbose=Fals
 시중에 나와있는 샘플 데이터로 봤을때는 p-value가 모든 경우에서 일관되게 만족해서 A에서 B로 그레인저 인과효과가 있다, 없다 가 명확하게 나타나는것으로 보였는데 실제 데이터를 활용해보니 그렇지 않았다.
 데이터를 어떻게 처리하느냐에 따라 결과가 달라지기도하고, 애초에 가정을 만족시키는 단계에서부터 막힐수도 있겠단 생각이 들었다. 
 
-과정에서 느꼈던 본인의 사례를 말해보자면,  정상성을 확인하기 위해 ADF-Test와 ACF-plot 을 그려봤는데ADF-Test는 만족을 했지만 ACF-plot을 그렸을때는 7일을 기준으로 높은 상관관계가 나타나는것을 확인했다.
-이를 통해, ADF-Test만으로 정상성을 검증하는데는 부족함이 있고 데이터의 특성에 따라 추가로 KPSS-Test 를 거쳐야 한다는 것을 새로 알게 되었다. 
+과정에서 느꼈던 본인의 사례를 말해보자면,  정상성을 확인하기 위해 ADF-Test와 ACF-plot 을 그려봤는데 ADF-Test는 만족을 했지만 ACF-plot을 그렸을때는 7일을 기준으로 높은 상관관계가 나타나는것을 확인했다.
+이를 통해, **ADF-Test만으로 정상성을 검증하는데는 부족함이 있고 데이터의 특성에 따라 추가로 KPSS-Test 를 거쳐야 한다는 것을 새로 알게 되었다.**
 
 또한, grangercausalitytests 라이브러리를 통해서 나오는 결과가 F검정 결과와 카이제곱 검정 두가지가 있는데, 두 결과가 상이할 경우 *(ex. F-test에서는 유의한데 카이제곱에선 유의하지 않은 경우)* 이를 어떻게 해석해야되는지와 같은것도 고민해야될 부분이었다. 
 
-그리고 결과적으로 이 분석만으로는 정확한 선행관계를 알기 어렵고, 어쩌면 이 데이터 자체가  Granger causality test 로 검증하기에 적합하지 않다는 결론을 내게 되어서 조금은 허무하다는 생각이 들기도 했다. 
-사실 이는 일반 causality 에서도 비슷하게 느꼈던 점이기도 하다.
+그리고 결과적으로 이 분석만으로는 정확한 선행관계를 알기 어렵고, 어쩌면 **이 데이터 자체가  Granger causality test 로 검증하기에 적합하지 않다**는 결론을 내게 되어서 조금은 허무하다는 생각이 들기도 했다. 
+사실 이는 일반 인과관계 분석 방법론을 적용해보았을 때 비슷하게 느꼈던 점이기도 하다.
 
 그래서 모든 데이터에 이런 방법론을 적용해서 정답을 얻기란 쉽지 않은듯하고, 우선 여러 방법론을 머릿속에 저장해두고 필요에 따라 자유롭게 꺼내쓸 수 있는 능력을 기르는데 목표를 두어야겠다는 생각을 했다.
 

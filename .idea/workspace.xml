@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/statistics/2023-03-19-Granger-Causality.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/masthead-search.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/docs/assets/images/mm-priority-plus-masthead.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/assets/images/mm-priority-plus-masthead.gif" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,9 +18,9 @@
     <session id="-849002957">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="33" />
+          <entry key="project.closed" value="35" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.10" value="4" />
+          <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="4" />
           <entry key="project.open.time.12" value="4" />
           <entry key="project.open.time.13" value="1" />
@@ -33,8 +36,8 @@
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="3" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="33" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="36" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -43,7 +46,7 @@
           <entry key="JPG" value="1" />
           <entry key="html" value="10" />
           <entry key="ipynb" value="1" />
-          <entry key="md" value="22" />
+          <entry key="md" value="23" />
           <entry key="png" value="4" />
           <entry key="scss" value="5" />
           <entry key="yml" value="7" />
@@ -54,7 +57,7 @@
           <entry key="HTML" value="10" />
           <entry key="IPNB" value="1" />
           <entry key="Image" value="5" />
-          <entry key="Markdown" value="22" />
+          <entry key="Markdown" value="23" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="YAML" value="7" />
         </counts>
@@ -62,7 +65,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="25" />
-          <entry key="md" value="1295" />
+          <entry key="md" value="1314" />
           <entry key="scss" value="56" />
           <entry key="yml" value="60" />
         </counts>
@@ -70,7 +73,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="25" />
-          <entry key="Markdown" value="1295" />
+          <entry key="Markdown" value="1314" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="YAML" value="60" />
         </counts>
@@ -169,12 +172,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="536">
-                <caret line="233" lean-forward="true" selection-start-line="233" selection-end-line="233" />
+              <first_editor relative-caret-position="150">
+                <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/statistics/2023-03-19-Granger-Causality.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="405">
+                <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -244,19 +259,21 @@
         <option value="$PROJECT_DIR$/_posts/statistics/2022-02-14-FalsePositive-Power.md" />
         <option value="$PROJECT_DIR$/_posts/2022-01-31-Book-DataLiteracy.md" />
         <option value="$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md" />
+        <option value="$PROJECT_DIR$/_posts/statistics/2023-03-19-Granger-Causality.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
-    <option name="width" value="1172" />
-    <option name="height" value="827" />
+    <option name="width" value="1190" />
+    <option name="height" value="829" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -295,25 +312,12 @@
               <item name="suhyun-cho.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="suhyun-cho.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="2022-01-31-BookReview-DataLiteracy_files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suhyun-cho.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suhyun-cho.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-              <item name="2022-02-14-statistics-FalsePositive-Power_files" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="suhyun-cho.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="suhyun-cho.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
               <item name="2022-09-12-CausalInference-Instrumental-variable-LATE_files" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -356,10 +360,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1172" height="827" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="917" height="829" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13274336" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.60571426" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -384,7 +387,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_posts/test.md.bak" />
     <entry file="file://$PROJECT_DIR$/_posts/2021-05-23-kaggle Porto Seguro's Safe Driver Prediction-for beginner.md" />
     <entry file="file://$PROJECT_DIR$/_posts/test.md" />
     <entry file="file://$PROJECT_DIR$/_posts/2021-05-25-test.md" />
@@ -670,8 +672,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="536">
-            <caret line="233" lean-forward="true" selection-start-line="233" selection-end-line="233" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/statistics/2023-03-19-Granger-Causality.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="405">
+            <caret line="27" column="4" lean-forward="true" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>

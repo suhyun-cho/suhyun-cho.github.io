@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/2023-05-29-BookReview-SurviveSmart_files/2023-05-29-BookReview-SurviveSmart_1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="25" />
-          <entry key="md" value="1564" />
+          <entry key="md" value="1571" />
           <entry key="scss" value="56" />
           <entry key="yml" value="60" />
         </counts>
@@ -71,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="25" />
-          <entry key="Markdown" value="1564" />
+          <entry key="Markdown" value="1571" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="YAML" value="60" />
         </counts>
@@ -96,8 +94,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="446">
-                <caret line="125" column="96" selection-start-line="125" selection-start-column="96" selection-end-line="125" selection-end-column="96" />
+              <first_editor relative-caret-position="581">
+                <caret line="134" column="4" lean-forward="true" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
               </first_editor>
               <second_editor />
             </state>
@@ -108,8 +106,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2022-01-31-Book-DataLiteracy.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="276">
-                <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-end-line="74" />
+              <first_editor relative-caret-position="126">
+                <caret line="63" column="1" selection-start-line="63" selection-end-line="63" selection-end-column="1" />
               </first_editor>
               <second_editor />
             </state>
@@ -299,7 +297,7 @@
     <frame x="0" y="23" width="1440" height="828" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29899856" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24034335" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -628,8 +626,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2022-01-31-Book-DataLiteracy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="276">
-            <caret line="73" column="51" lean-forward="true" selection-start-line="73" selection-end-line="74" />
+          <first_editor relative-caret-position="126">
+            <caret line="63" column="1" selection-start-line="63" selection-end-line="63" selection-end-column="1" />
           </first_editor>
           <second_editor />
         </state>
@@ -638,8 +636,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="446">
-            <caret line="125" column="96" selection-start-line="125" selection-start-column="96" selection-end-line="125" selection-end-column="96" />
+          <first_editor relative-caret-position="581">
+            <caret line="134" column="4" lean-forward="true" selection-start-line="134" selection-start-column="4" selection-end-line="134" selection-end-column="4" />
           </first_editor>
           <second_editor />
         </state>

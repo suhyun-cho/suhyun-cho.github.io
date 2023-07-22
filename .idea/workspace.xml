@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -62,7 +61,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="25" />
-          <entry key="md" value="1679" />
+          <entry key="md" value="1683" />
           <entry key="scss" value="56" />
           <entry key="yml" value="60" />
         </counts>
@@ -70,7 +69,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="25" />
-          <entry key="Markdown" value="1679" />
+          <entry key="Markdown" value="1683" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="YAML" value="60" />
         </counts>
@@ -95,8 +94,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="234">
-                <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+              <first_editor relative-caret-position="75">
+                <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
@@ -107,8 +106,8 @@
         <entry file="file://$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="270">
-                <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+              <first_editor relative-caret-position="503">
+                <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
               </first_editor>
               <second_editor />
             </state>
@@ -299,7 +298,7 @@
     <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14091559" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19527897" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -595,16 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-05-30-note-move_company.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="34" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/images/2023-05-29-BookReview-SurviveSmart_files/2023-05-29-BookReview-SurviveSmart_1.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -628,11 +617,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-05-30-note-move_company.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="234">
-            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <first_editor relative-caret-position="75">
+            <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -641,8 +640,8 @@
     <entry file="file://$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="270">
-            <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
+          <first_editor relative-caret-position="503">
+            <caret line="175" lean-forward="true" selection-start-line="175" selection-end-line="175" />
           </first_editor>
           <second_editor />
         </state>

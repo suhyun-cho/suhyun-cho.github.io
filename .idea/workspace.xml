@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74099ba5-96ad-4672-acd0-08da67385f93" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,7 +15,7 @@
     <session id="-849002957">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="36" />
+          <entry key="project.closed" value="37" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.10" value="5" />
           <entry key="project.open.time.11" value="4" />
@@ -30,10 +31,10 @@
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.7" value="4" />
           <entry key="project.open.time.8" value="3" />
           <entry key="project.open.time.9" value="3" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,7 +43,7 @@
           <entry key="JPG" value="1" />
           <entry key="html" value="10" />
           <entry key="ipynb" value="1" />
-          <entry key="md" value="27" />
+          <entry key="md" value="31" />
           <entry key="png" value="15" />
           <entry key="scss" value="5" />
           <entry key="yml" value="7" />
@@ -53,7 +54,7 @@
           <entry key="HTML" value="10" />
           <entry key="IPNB" value="1" />
           <entry key="Image" value="16" />
-          <entry key="Markdown" value="27" />
+          <entry key="Markdown" value="31" />
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="YAML" value="7" />
         </counts>
@@ -61,7 +62,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="html" value="25" />
-          <entry key="md" value="1607" />
+          <entry key="md" value="1679" />
           <entry key="scss" value="56" />
           <entry key="yml" value="60" />
         </counts>
@@ -69,7 +70,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="25" />
-          <entry key="Markdown" value="1607" />
+          <entry key="Markdown" value="1679" />
           <entry key="PLAIN_TEXT" value="56" />
           <entry key="YAML" value="60" />
         </counts>
@@ -79,11 +80,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/statistics/2023-03-19-Granger-Causality.md">
+        <entry file="file://$PROJECT_DIR$/_posts/2021-05-30-note-move_company.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="537">
-                <caret line="322" selection-start-line="322" selection-end-line="322" />
+              <first_editor relative-caret-position="225">
+                <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="34" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="234">
+                <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               </first_editor>
               <second_editor />
             </state>
@@ -91,32 +104,15 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md">
+        <entry file="file://$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="626">
-                <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+              <first_editor relative-caret-position="270">
+                <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2022-01-31-Book-DataLiteracy.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="126">
-                <caret line="63" column="1" selection-start-line="63" selection-end-line="63" selection-end-column="1" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/images/2023-05-29-BookReview-SurviveSmart_files/2023-05-29-BookReview-SurviveSmart_1.png">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -197,14 +193,14 @@
         <option value="$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md" />
         <option value="$PROJECT_DIR$/_posts/statistics/2023-03-19-Granger-Causality.md" />
         <option value="$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md" />
+        <option value="$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1" />
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
-    <option name="width" value="1383" />
-    <option name="height" value="828" />
+    <option name="width" value="1440" />
+    <option name="height" value="825" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -227,6 +223,12 @@
               <item name="suhyun-cho.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="suhyun-cho.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_posts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="suhyun-cho.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="suhyun-cho.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="suhyun-cho.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -294,10 +296,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="828" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="825" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24034335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14091559" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -322,13 +324,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/feed.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2021-05-23-kaggle-HomeCredit-default-risk-eda-and-FeatureEngineering_beginner.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -456,16 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="26" column="9" lean-forward="true" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2021-05-30-note-move_company.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -610,6 +595,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-05-30-note-move_company.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="33" selection-end-line="15" selection-end-column="34" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/images/2023-05-29-BookReview-SurviveSmart_files/2023-05-29-BookReview-SurviveSmart_1.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/statistics/2022-09-12-CausalInference-Instrumental-variable-LATE.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -620,13 +618,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/images/2023-05-29-BookReview-SurviveSmart_files/2023-05-29-BookReview-SurviveSmart_1.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2022-01-31-Book-DataLiteracy.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="126">
+          <first_editor relative-caret-position="653">
             <caret line="63" column="1" selection-start-line="63" selection-end-line="63" selection-end-column="1" />
           </first_editor>
           <second_editor />
@@ -636,8 +631,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/2023-05-29-Book-SurviveSmart.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="626">
-            <caret line="144" lean-forward="true" selection-start-line="144" selection-end-line="144" />
+          <first_editor relative-caret-position="234">
+            <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/note/2023-07-22-worknote-in-tmap.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="270">
+            <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           </first_editor>
           <second_editor />
         </state>

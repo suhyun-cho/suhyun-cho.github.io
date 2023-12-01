@@ -6,6 +6,7 @@ read_time: false
 comments: true
 categories:
 - 일상기록 및 회고
+published : false
 ---
 
 <br>

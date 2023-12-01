@@ -6,6 +6,7 @@ read_time: false
 comments: true
 categories:
 - BigQuery
+published : false
 ---
 
 <br>
